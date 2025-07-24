@@ -40,7 +40,7 @@ if show_data:
 #---------------------------------------------------------------------------------------------------------------------------------
 #Train Mode
 st.header("🤖 Train Classification Model")
-for_train_model = st.radio("Train Model","Use model")
+for_train_model = st.radio("Choose Step",("Train Model","Use model"))
 if for_train_model=="Train Model":
     columns11 = list(data_frame.columns)
     target_col = st.selectbox("Select Target",columns11)
