@@ -10,7 +10,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import joblib
 
-st.write("hello")
 
 import warnings
 warnings.filterwarnings("ignore")
